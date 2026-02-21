@@ -1,0 +1,93 @@
+{
+  "HexagonalApi.Application.dll": {
+    "C:\\Users\\usuario\\Documents\\.net\\example-api\\HexagonalApi.Application\\ProductService.cs": {
+      "HexagonalApi.Application.ProductService": {
+        "System.Void HexagonalApi.Application.ProductService::.ctor(HexagonalApi.Application.IProductRepository)": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        }
+      },
+      "HexagonalApi.Application.ProductService/<CreateProductAsync>d__2": {
+        "System.Void HexagonalApi.Application.ProductService/<CreateProductAsync>d__2::MoveNext()": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      },
+      "HexagonalApi.Application.ProductService/<GetProductsAsync>d__3": {
+        "System.Void HexagonalApi.Application.ProductService/<GetProductsAsync>d__3::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "HexagonalApi.Domain.dll": {
+    "C:\\Users\\usuario\\Documents\\.net\\example-api\\HexagonalApi.Domain\\Product.cs": {
+      "HexagonalApi.Domain.Product": {
+        "System.Guid HexagonalApi.Domain.Product::get_Id()": {
+          "Lines": {
+            "5": 1
+          },
+          "Branches": []
+        },
+        "System.String HexagonalApi.Domain.Product::get_Name()": {
+          "Lines": {
+            "6": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal HexagonalApi.Domain.Product::get_Price()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.Void HexagonalApi.Domain.Product::ApplyDiscount(System.Decimal)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 16,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@host = http://localhost:8080
+
+### 1. Intentar agendar en fin de semana (Falla)
+POST {{host}}/api/appointments
+Content-Type: application/json
+
+{
+    "licensePlate": "PDF-1234",
+    "scheduledAt": "2025-06-28T10:00:00"
+}
+
+###
+
+### 2. Intentar agendar fuera de hora (Falla)
+POST {{host}}/api/appointments
+Content-Type: application/json
+
+{
+    "licensePlate": "PDF-1234",
+    "scheduledAt": "2025-06-23T15:00:00"
+}
+
+###
+
+### 3. Agendar cita válida (Éxito)
+POST {{host}}/api/appointments
+Content-Type: application/json
+
+{
+    "licensePlate": "PDF-1234",
+    "scheduledAt": "2025-07-23T09:30:00"
+}
+
+###
+
+### 4. Intentar agendar misma hora (Falla por duplicado)
+POST {{host}}/api/appointments
+Content-Type: application/json
+
+{
+    "licensePlate": "XYZ-9999",
+    "scheduledAt": "2025-06-23T09:30:00"
+}
+
+###
+
+### 5. Consultar historial por placa
+GET {{host}}/api/appointments/PDF-1234
+Accept: application/json
