@@ -1,7 +1,7 @@
 <Solution>
-  <Project Path="VehicleAppointments.Application/VehicleAppointments.Application.csproj" />
-  <Project Path="VehicleAppointments.Domain/VehicleAppointments.Domain.csproj" />
-  <Project Path="VehicleAppointments.Infrastructure/VehicleAppointments.Infrastructure.csproj" />
-  <Project Path="VehicleAppointments.Tests/VehicleAppointments.Tests.csproj" />
-  <Project Path="VehicleAppointments.Web/VehicleAppointments.Web.csproj" />
+  <Project Path="HexagonalApi.Application/VehicleAppointments.Application.csproj" />
+  <Project Path="HexagonalApi.Domain/VehicleAppointments.Domain.csproj" />
+  <Project Path="HexagonalApi.Infrastructure/VehicleAppointments.Infrastructure.csproj" />
+  <Project Path="HexagonalApi.Tests/VehicleAppointments.Tests.csproj" />
+  <Project Path="HexagonalApi.Web/VehicleAppointments.Web.csproj" />
 </Solution>
